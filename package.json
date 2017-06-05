@@ -1,0 +1,37 @@
+{
+  "name": "react-node-template",
+  "version": "1.0.0",
+  "description": "Quick template to get a Node.js + React application started",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha && jasmine",
+    "start": "webpack && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatleboy501/React-Node-Template.git"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "beatleboy501",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beatleboy501/React-Node-Template/issues"
+  },
+  "homepage": "https://github.com/beatleboy501/React-Node-Template#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "core.js": "^0.4.2",
+    "express": "^4.15.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.6.1"
+  }
+}
